@@ -1,0 +1,10 @@
+# ==================================================
+[Usage] vcpkg-lib-example provides CMake targets:
+
+``` CMakeLists.txt
+find_package(vcpkg-lib-example CONFIG REQUIRED)
+target_link_libraries(<YOUR_TARGET> PRIVATE
+        vcpkg-lib-example::vcpkg-lib-example
+)
+```
+# ==================================================

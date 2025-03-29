@@ -1,0 +1,8 @@
+{
+    "default" : {
+        "vcpkg-lib-example" : {
+            "baseline" : "0.1.0"
+        }
+    }
+}
+

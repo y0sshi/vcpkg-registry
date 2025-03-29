@@ -1,0 +1,17 @@
+{
+    "name"         : "vcpkg-lib-example",
+    "version"      : "0.1.0",
+    "description"  : "Example library managed with vcpkg",
+    "homepage"     : "git@github.com:y0sshi/vcpkg-lib-example.git",
+    "dependencies" : [
+        {
+            "name" : "vcpkg-cmake",
+            "host" : true
+        },
+        {
+            "name" : "vcpkg-cmake-config",
+            "host" : true
+        }
+    ]
+}
+
